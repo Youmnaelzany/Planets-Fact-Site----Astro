@@ -1,0 +1,73 @@
+---
+import Layout from "../layouts/Layout.astro";
+import "@/styles/global.css";
+---
+
+<Layout title="Jupiter" />
+<main>
+  <section class="planet-information-section">
+    <div class="planet-img-wrapper">
+      <img src="/images/planet-jupiter.svg" alt="planet-venus" />
+    </div>
+    <div class="information-wrapper">
+      <div class="information-intro-wrapper">
+        <h1 class="information-main-heading">Jupiter</h1>
+        <p class="information-main-paragraph">
+          Jupiter is the fifth planet from the Sun and the largest in the Solar
+          System. It is a gas giant with a mass two and a half times that of all
+          the other planets in the Solar System combined, but less than
+          one-thousandth the mass of the Sun.
+        </p>
+        <div class="wikipedia-link-source-wrapper">
+          <p class="wikipedia-source-title">Source :</p>
+          <a class="wikipedia-link" href="https://en.wikipedia.org/wiki/Jupiter"
+            >Wikipedia</a
+          >
+          <img
+            class="wikipedia-link-"
+            src="/images/icon-source.svg"
+            alt="icon-source"
+          />
+        </div>
+      </div>
+      <div class="more-information-pages-list-wrapper">
+        <div class="more-information-pages-link-wrapper">
+          <a class="page-link" href="/jupiter">
+            <span class="page-number">01</span>
+             OVERVIEW
+          </a>
+        </div>
+        <div class="more-information-pages-link-wrapper">
+          <a class="page-link" href="/components/MercuryInternal.astro/">
+            <span class="page-number">02</span>
+             Internal Structure
+          </a>
+        </div>
+        <div class="more-information-pages-link-wrapper">
+          <a class="page-link" href="/components/MercurySurface.astro/">
+            <span class="page-number">03</span>
+             Surface Geology
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+<footer class="accurate-numbers-section">
+  <div class="number-box">
+    <h2 class="accurate-numbers-heading">Rotation Time</h2>
+    <p class="accurate-numbers-paragraph">9.93 Hours</p>
+  </div>
+  <div class="number-box">
+    <h2 class="accurate-numbers-heading">Revolution Time</h2>
+    <p class="accurate-numbers-paragraph">11.86 Years</p>
+  </div>
+  <div class="number-box">
+    <h2 class="accurate-numbers-heading">Radius</h2>
+    <p class="accurate-numbers-paragraph">69,911 KM</p>
+  </div>
+  <div class="number-box">
+    <h2 class="accurate-numbers-heading">Average Temp.</h2>
+    <p class="accurate-numbers-paragraph">-108°c</p>
+  </div>
+</footer>

@@ -1,0 +1,73 @@
+---
+import Layout from "../layouts/Layout.astro";
+import "@/styles/global.css";
+---
+
+<Layout title="Venus" />
+<main>
+  <section class="planet-information-section">
+    <div class="planet-img-wrapper">
+      <img src="/images/planet-venus.svg" alt="planet-venus" />
+    </div>
+    <div class="information-wrapper">
+      <div class="information-intro-wrapper">
+        <h1 class="information-main-heading">Venus</h1>
+        <p class="information-main-paragraph">
+          Venus is the second planet from the Sun. It is named after the Roman
+          goddess of love and beauty. As the brightest natural object in Earth's
+          night sky after the Moon, Venus can cast shadows and can be, on rare
+          occasions, visible to the naked eye in broad daylight.
+        </p>
+        <div class="wikipedia-link-source-wrapper">
+          <p class="wikipedia-source-title">Source :</p>
+          <a class="wikipedia-link" href="https://en.wikipedia.org/wiki/Venus"
+            >Wikipedia</a
+          >
+          <img
+            class="wikipedia-link-"
+            src="/images/icon-source.svg"
+            alt="icon-source"
+          />
+        </div>
+      </div>
+      <div class="more-information-pages-list-wrapper">
+        <div class="more-information-pages-link-wrapper">
+          <a class="page-link" href="/venus">
+            <span class="page-number">01</span>
+             OVERVIEW
+          </a>
+        </div>
+        <div class="more-information-pages-link-wrapper">
+          <a class="page-link" href="/components/MercuryInternal.astro/">
+            <span class="page-number">02</span>
+             Internal Structure
+          </a>
+        </div>
+        <div class="more-information-pages-link-wrapper">
+          <a class="page-link" href="/components/MercurySurface.astro/">
+            <span class="page-number">03</span>
+             Surface Geology
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+<footer class="accurate-numbers-section">
+  <div class="number-box">
+    <h2 class="accurate-numbers-heading">Rotation Time</h2>
+    <p class="accurate-numbers-paragraph">243 Days</p>
+  </div>
+  <div class="number-box">
+    <h2 class="accurate-numbers-heading">Revolution Time</h2>
+    <p class="accurate-numbers-paragraph">224.7 Days</p>
+  </div>
+  <div class="number-box">
+    <h2 class="accurate-numbers-heading">Radius</h2>
+    <p class="accurate-numbers-paragraph">6,051.8 KM</p>
+  </div>
+  <div class="number-box">
+    <h2 class="accurate-numbers-heading">Average Temp.</h2>
+    <p class="accurate-numbers-paragraph">471°c</p>
+  </div>
+</footer>

@@ -1,0 +1,265 @@
+/* The integration's default injected base.css file */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+:root {
+    /* Colors */
+    --clr-White: #FFFFFF;
+    --clr-Iron: #d8d8d8;
+    --clr-Monsoon: #838391;
+    --clr-Martinique: #38384f;
+    --clr-Ebony: #070724;
+    --clr-Pelorous: #419EBB;
+    --clr-Shamrock: #1ec1a2;
+    --clr-Royal-Blue: #2d68f0;
+    --clr-Purple-Heart: #6d2ed5;
+    --clr-Orange-Roughy: #cd5120;
+    --clr-Valencia: #D14C32;
+    --clr-Punch: #d83a34;
+    --clr-Tan-Hide: #eda249;
+    /* Font Family */
+    --ff-primary: 'Antonio', sans-serif;
+    --ff-secondary: 'League Spartan', sans-serif;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+    max-width: 100%;
+    display: block;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+html:focus-within {
+    scroll-behavior: smooth;
+}
+
+body {
+    /* width: min(95%, 90rem); */
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    text-rendering: optimizeSpeed;
+    font-size: 1.125rem;
+    line-height: 1.5;
+    background-color: var(--clr-Ebony);
+    background-image: url(/images/background-stars.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Header Style */
+
+.header-wrapper {
+    padding: 0 2rem;
+    margin: 1.5rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--clr-Martinique)
+}
+
+.logo-home-link {
+    color: var(--clr-White);
+    font-family: var(--ff-primary);
+    font-size: 1.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.list-wrapper {
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-links {
+    text-transform: uppercase;
+    letter-spacing: 0.0625rem;
+    color: var(--clr-White);
+    font-family: var(--ff-secondary);
+    font-size: 0.6875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.5625rem;
+}
+
+/* Main Style */
+.planet-information-section {
+    width: min(90%, 70rem);
+    margin: 0 auto;
+    display: grid;
+    gap: 4rem;
+    grid-template-columns: repeat(2, 23rem);
+    justify-content: center;
+    align-items: center;
+}
+
+.information-wrapper {
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+    color: var(--clr-White);
+}
+
+.information-intro-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.information-main-heading {
+    font-family: var(--ff-primary);
+    font-size: 5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.information-main-paragraph {
+    font-family: var(--ff-secondary);
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5625rem;
+}
+
+.wikipedia-link-source-wrapper {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    color: var(--clr-Monsoon);
+}
+
+.wikipedia-source-title {
+    font-family: var(--ff-secondary);
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5625rem;
+}
+
+.wikipedia-link {
+    font-family: var(--ff-secondary);
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.5625rem;
+    text-decoration-line: underline;
+    color: var(--clr-Monsoon);
+}
+
+.more-information-pages-list-wrapper {
+    margin-top: 2rem;
+}
+
+.more-information-pages-link-wrapper {
+    border: 1px solid var(--clr-Monsoon);
+    width: 21.875rem;
+    height: 3rem;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.more-information-pages-link-wrapper:active {
+    background-color: var(--clr-Pelorous);
+    transition: all 0.2s;
+}
+
+.more-information-pages-link-wrapper:hover {
+    background-color: var(--clr-Martinique);
+    transition: all 0.2s;
+}
+
+.page-link {
+    font-family: var(--ff-secondary);
+    color: var(--clr-White);
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.5625rem;
+    letter-spacing: 0.16069rem;
+    text-transform: uppercase;
+    margin-left: 1rem;
+}
+
+.page-number {
+    color: var(--clr-Monsoon);
+    font-family: var(--ff-secondary);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.5625rem;
+    letter-spacing: 0.16069rem;
+}
+
+/* Second Section */
+.accurate-numbers-section {
+    width: min(90%, 70rem);
+    display: flex;
+    gap: 1.5rem;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+}
+
+.number-box {
+    border: 1px solid var(--clr-Monsoon);
+    width: 15.9375rem;
+    height: 8rem;
+    padding-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.accurate-numbers-heading {
+    font-family: var(--ff-secondary);
+    font-size: 0.6875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.5625rem;
+    letter-spacing: 0.0625rem;
+    text-transform: uppercase;
+    color: var(--clr-Monsoon);
+}
+
+.accurate-numbers-paragraph {
+    color: var(--clr-White);
+    font-family: var(--ff-primary);
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.09375rem;
+    text-transform: uppercase;
+}

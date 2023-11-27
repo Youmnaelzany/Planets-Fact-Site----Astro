@@ -1,0 +1,73 @@
+---
+import Layout from "../layouts/Layout.astro";
+import "@/styles/global.css";
+---
+
+<Layout title="Uranus" />
+<main>
+  <section class="planet-information-section">
+    <div class="planet-img-wrapper">
+      <img src="/images/planet-uranus.svg" alt="planet-uranus" />
+    </div>
+    <div class="information-wrapper">
+      <div class="information-intro-wrapper">
+        <h1 class="information-main-heading">Uranus</h1>
+        <p class="information-main-paragraph">
+          Uranus is the seventh planet from the Sun. Its name is a reference to
+          the Greek god of the sky, Uranus according to Greek mythology, was the
+          great-grandfather of Ares. It has the third-largest planetary radius
+          and fourth-largest planetary mass in the Solar System.
+        </p>
+        <div class="wikipedia-link-source-wrapper">
+          <p class="wikipedia-source-title">Source :</p>
+          <a class="wikipedia-link" href="https://en.wikipedia.org/wiki/Uranus"
+            >Wikipedia</a
+          >
+          <img
+            class="wikipedia-link-"
+            src="/images/icon-source.svg"
+            alt="icon-source"
+          />
+        </div>
+      </div>
+      <div class="more-information-pages-list-wrapper">
+        <div class="more-information-pages-link-wrapper">
+          <a class="page-link" href="/uranus">
+            <span class="page-number">01</span>
+             OVERVIEW
+          </a>
+        </div>
+        <div class="more-information-pages-link-wrapper">
+          <a class="page-link" href="/components/MercuryInternal.astro/">
+            <span class="page-number">02</span>
+             Internal Structure
+          </a>
+        </div>
+        <div class="more-information-pages-link-wrapper">
+          <a class="page-link" href="/components/MercurySurface.astro/">
+            <span class="page-number">03</span>
+             Surface Geology
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+<footer class="accurate-numbers-section">
+  <div class="number-box">
+    <h2 class="accurate-numbers-heading">Rotation Time</h2>
+    <p class="accurate-numbers-paragraph">17.2 Hours</p>
+  </div>
+  <div class="number-box">
+    <h2 class="accurate-numbers-heading">Revolution Time</h2>
+    <p class="accurate-numbers-paragraph">84 Years</p>
+  </div>
+  <div class="number-box">
+    <h2 class="accurate-numbers-heading">Radius</h2>
+    <p class="accurate-numbers-paragraph">25,362 KM</p>
+  </div>
+  <div class="number-box">
+    <h2 class="accurate-numbers-heading">Average Temp.</h2>
+    <p class="accurate-numbers-paragraph">-195°c</p>
+  </div>
+</footer>
