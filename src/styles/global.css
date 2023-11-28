@@ -132,45 +132,45 @@ body {
     color: var(--clr-White);
 } */
 
-.information-intro-wrapper {
+/* .information-intro-wrapper {
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
-}
+} */
 
-.information-main-heading {
+/* .information-main-heading {
     font-family: var(--ff-primary);
     font-size: 5rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     text-transform: uppercase;
-}
+} */
 
-.information-main-paragraph {
+/* .information-main-paragraph {
     font-family: var(--ff-secondary);
     font-size: 0.875rem;
     font-style: normal;
     font-weight: 400;
     line-height: 1.5625rem;
-}
+} */
 
-.wikipedia-link-source-wrapper {
+/* .wikipedia-link-source-wrapper {
     display: flex;
     align-items: center;
     gap: .5rem;
     color: var(--clr-Monsoon);
-}
+} */
 
-.wikipedia-source-title {
+/* .wikipedia-source-title {
     font-family: var(--ff-secondary);
     font-size: 0.875rem;
     font-style: normal;
     font-weight: 400;
     line-height: 1.5625rem;
-}
+} */
 
-.wikipedia-link {
+/* .wikipedia-link {
     font-family: var(--ff-secondary);
     font-size: 0.875rem;
     font-style: normal;
@@ -178,32 +178,33 @@ body {
     line-height: 1.5625rem;
     text-decoration-line: underline;
     color: var(--clr-Monsoon);
-}
+    -moz-text-decoration-line: underline;
+} */
 
-.more-information-pages-list-wrapper {
+/* .more-information-pages-list-wrapper {
     margin-top: 2rem;
-}
+} */
 
-.more-information-pages-link-wrapper {
+/* .more-information-pages-link-wrapper {
     border: 1px solid var(--clr-Monsoon);
     width: 21.875rem;
     height: 3rem;
     margin-top: 1rem;
     display: flex;
     align-items: center;
-}
+} */
 
-.more-information-pages-link-wrapper:active {
+/* .more-information-pages-link-wrapper:active {
     background-color: var(--clr-Pelorous);
     transition: all 0.2s;
-}
+} */
 
-.more-information-pages-link-wrapper:hover {
+/* .more-information-pages-link-wrapper:hover {
     background-color: var(--clr-Martinique);
     transition: all 0.2s;
-}
+} */
 
-.page-link {
+/* .page-link {
     font-family: var(--ff-secondary);
     color: var(--clr-White);
     font-size: 0.75rem;
@@ -213,9 +214,9 @@ body {
     letter-spacing: 0.16069rem;
     text-transform: uppercase;
     margin-left: 1rem;
-}
+} */
 
-.page-number {
+/* .page-number {
     color: var(--clr-Monsoon);
     font-family: var(--ff-secondary);
     font-size: 1rem;
@@ -223,18 +224,18 @@ body {
     font-weight: 700;
     line-height: 1.5625rem;
     letter-spacing: 0.16069rem;
-}
+} */
 
 /* Second Section */
 .accurate-numbers-section {
-    width: min(90%, 70rem);
+    width: min(75%, 70rem);
     display: flex;
     gap: 1.5rem;
     margin: 0 auto;
     margin-bottom: 3rem;
 }
 
-.number-box {
+/* .number-box {
     border: 1px solid var(--clr-Monsoon);
     width: 15.9375rem;
     height: 8rem;
@@ -243,9 +244,9 @@ body {
     flex-direction: column;
     justify-content: center;
 
-}
+} */
 
-.accurate-numbers-heading {
+/* .accurate-numbers-heading {
     font-family: var(--ff-secondary);
     font-size: 0.6875rem;
     font-style: normal;
@@ -254,9 +255,9 @@ body {
     letter-spacing: 0.0625rem;
     text-transform: uppercase;
     color: var(--clr-Monsoon);
-}
+} */
 
-.accurate-numbers-paragraph {
+/* /* .accurate-numbers-paragraph {
     color: var(--clr-White);
     font-family: var(--ff-primary);
     font-size: 2.5rem;
@@ -264,7 +265,5 @@ body {
     font-weight: 400;
     line-height: normal;
     letter-spacing: -0.09375rem;
-    text-transform: uppercase;
-}
-
-@media (min-width:721) and (max-width:960px) {}
+    text-transform: uppercase; 
+} */

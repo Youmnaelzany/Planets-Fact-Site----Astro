@@ -6,23 +6,33 @@ import "@/styles/global.css";
 <Layout title="Mercury">
   <main>
     <section class="planet-information-section">
-      <div class="planet-img-wrapper">
+      <div class="planet-img-wrapper self-center justify-self-center">
         <img src="/images/planet-mercury-internal.svg" alt="planet-mercury" />
       </div>
-      <div class="information-wrapper">
-        <div class="information-intro-wrapper">
-          <h1 class="information-main-heading">Mercury</h1>
-          <p class="information-main-paragraph">
+      <div class="information-wrapper my-28">
+        <div class="information-intro-wrapper mb-6">
+          <h1
+            class="information-main-heading font-primary text-clr-White text-7xl font-normal uppercase not-italic"
+          >
+            Mercury
+          </h1>
+          <p
+            class="information-main-paragraph my-6 font-secondary text-sm font-normal leading-6 text-clr-White"
+          >
             Mercury appears to have a solid silicate crust and mantle overlying
             a solid, iron sulfide outer core layer, a deeper liquid core layer,
             and a solid inner core. The planet's density is the second highest
             in the Solar System at 5.427 g/cm3 , only slightly less than Earth's
             density.
           </p>
-          <div class="wikipedia-link-source-wrapper">
-            <p class="wikipedia-source-title">Source :</p>
+          <div class="wikipedia-link-source-wrapper flex items-center gap-2">
+            <p
+              class="wikipedia-source-title text-clr-White opacity-50 font-secondary text-sm not-italic font-normal leading-6"
+            >
+              Source :
+            </p>
             <a
-              class="wikipedia-link"
+              class="wikipedia-link font-secondary text-sm not-italic font-bold leading-6 text-clr-White opacity-50"
               target="_blank"
               href="https://en.wikipedia.org/wiki/Mercury_(planet)#Internal_structure)"
               >Wikipedia</a
@@ -36,26 +46,52 @@ import "@/styles/global.css";
         </div>
         <div class="more-information-pages-list-wrapper">
           <div
-            class="more-information-pages-link-wrapper active:bg-clr-Pelorous"
+            class="more-information-pages-link-wrapper active:bg-clr-Pelorous border border-solid border-clr-Monsoon p-2 w-80 hover:bg-clr-Martinique"
           >
-            <a class="page-link" href="/">
-              <span class="page-number">01</span>
+            <a
+              class="page-link font-secondary text-xs font-bold leading-9 uppercase tracking-widest text-clr-White ml-4"
+              href="/"
+            >
+              <span
+                class="page-number mr-4 text-clr-Martinique text-base font-bold leading-5 tracking-widest font-secondary"
+                >01</span
+              >
                OVERVIEW
             </a>
           </div>
           <div
-            class="more-information-pages-link-wrapper active:bg-clr-Pelorous"
+            class="more-information-pages-link-wrapper active:bg-clr-Pelorous border border-solid border-clr-Monsoon my-4 p-2 w-80 hover:bg-clr-Martinique"
           >
-            <a class="page-link" href="/mercury-internal-structure/">
-              <span class="page-number">02</span>
+            <a
+              class="page-link
+              font-secondary
+              text-xs
+              font-bold
+              leading-9
+              uppercase
+              tracking-widest
+              text-clr-White
+              ml-4"
+              href="/mercury-internal-structure/"
+            >
+              <span
+                class="page-number mr-4 text-clr-Martinique text-base font-bold leading-5 tracking-widest font-secondary"
+                >02</span
+              >
                Internal Structure
             </a>
           </div>
           <div
-            class="more-information-pages-link-wrapper active:bg-clr-Pelorous"
+            class="more-information-pages-link-wrapper active:bg-clr-Pelorous border border-solid border-clr-Monsoon p-2 w-80 hover:bg-clr-Martinique"
           >
-            <a class="page-link" href="/mercury-surface-geology/">
-              <span class="page-number">03</span>
+            <a
+              class="page-link font-secondary text-xs font-bold leading-9 uppercase tracking-widest text-clr-White ml-4"
+              href="/mercury-surface-geology/"
+            >
+              <span
+                class="page-number mr-4 text-clr-Martinique text-base font-bold leading-5 tracking-widest font-secondary"
+                >03</span
+              >
                Surface Geology
             </a>
           </div>
@@ -64,21 +100,61 @@ import "@/styles/global.css";
     </section>
   </main>
   <footer class="accurate-numbers-section">
-    <div class="number-box">
-      <h2 class="accurate-numbers-heading">Rotation Time</h2>
-      <p class="accurate-numbers-paragraph">58.6 Days</p>
+    <div
+      class="number-box border border-solid border-clr-Monsoon w-64 h-32 flex place-content-center flex-col"
+    >
+      <h2
+        class="accurate-numbers-heading ml-6 font-secondary text-xs font-bold leading-6 uppercase text-clr-Monsoon tracking-wider not-italic"
+      >
+        Rotation Time
+      </h2>
+      <p
+        class="accurate-numbers-paragraph ml-6 text-clr-White font-primary text-4xl font-normal leading-6 uppercase tracking-tighter mt-2"
+      >
+        58.6 Days
+      </p>
     </div>
-    <div class="number-box">
-      <h2 class="accurate-numbers-heading">Revolution Time</h2>
-      <p class="accurate-numbers-paragraph">87.97 Days</p>
+    <div
+      class="number-box border border-solid border-clr-Monsoon w-64 h-32 flex place-content-center flex-col"
+    >
+      <h2
+        class="accurate-numbers-heading ml-6 font-secondary text-xs font-bold leading-6 uppercase text-clr-Monsoon tracking-wider not-italic"
+      >
+        Revolution Time
+      </h2>
+      <p
+        class="accurate-numbers-paragraph ml-6 text-clr-White font-primary text-4xl font-normal leading-6 uppercase tracking-tighter mt-2"
+      >
+        87.97 Days
+      </p>
     </div>
-    <div class="number-box">
-      <h2 class="accurate-numbers-heading">Radius</h2>
-      <p class="accurate-numbers-paragraph">2,439.7 KM</p>
+    <div
+      class="number-box border border-solid border-clr-Monsoon w-64 h-32 flex place-content-center flex-col"
+    >
+      <h2
+        class="accurate-numbers-heading ml-6 font-secondary text-xs font-bold leading-6 uppercase text-clr-Monsoon tracking-wider not-italic"
+      >
+        Radius
+      </h2>
+      <p
+        class="accurate-numbers-paragraph ml-6 text-clr-White font-primary text-4xl font-normal leading-6 uppercase tracking-tighter mt-2"
+      >
+        2,439.7 KM
+      </p>
     </div>
-    <div class="number-box">
-      <h2 class="accurate-numbers-heading">Average Temp.</h2>
-      <p class="accurate-numbers-paragraph">430°c</p>
+    <div
+      class="number-box border border-solid border-clr-Monsoon w-64 h-32 flex place-content-center flex-col"
+    >
+      <h2
+        class="accurate-numbers-heading ml-6 font-secondary text-xs font-bold leading-6 uppercase text-clr-Monsoon tracking-wider not-italic"
+      >
+        Average Temp.
+      </h2>
+      <p
+        class="accurate-numbers-paragraph ml-6 text-clr-White font-primary text-4xl font-normal leading-6 uppercase tracking-tighter mt-2"
+      >
+        430°c
+      </p>
     </div>
   </footer>
 </Layout>
