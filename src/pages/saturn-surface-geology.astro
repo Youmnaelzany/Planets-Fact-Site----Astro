@@ -3,27 +3,32 @@ import Layout from "../layouts/Layout.astro";
 import "@/styles/global.css";
 ---
 
-<Layout title="Uranus" />
+<Layout title="Saturn" />
 <main>
   <section class="planet-information-section">
-    <div class="planet-img-wrapper">
-      <img src="/images/planet-uranus.svg" alt="planet-uranus" />
+    <div class="planet-img-wrapper relative">
+      <img src="/images/planet-saturn.svg" alt="planet-saturn" />
+      <img
+        class="w-36 absolute -bottom-24 left-20"
+        src="/public/images/geology-saturn.png"
+        alt="geology-saturn"
+      />
     </div>
     <div class="information-wrapper">
       <div class="information-intro-wrapper">
-        <h1 class="information-main-heading">Uranus</h1>
+        <h1 class="information-main-heading">Saturn</h1>
         <p class="information-main-paragraph">
-          Uranus is the seventh planet from the Sun. Its name is a reference to
-          the Greek god of the sky, Uranus according to Greek mythology, was the
-          great-grandfather of Ares. It has the third-largest planetary radius
-          and fourth-largest planetary mass in the Solar System.
+          The outer atmosphere of Saturn contains 96.3% molecular hydrogen and
+          3.25% helium by volume. The planet's most famous feature is its
+          prominent ring system, which is composed mostly of ice particles with
+          a smaller amount of rocky debris and dust.
         </p>
         <div class="wikipedia-link-source-wrapper">
           <p class="wikipedia-source-title">Source :</p>
           <a
             class="wikipedia-link"
             target="_blank"
-            href="https://en.wikipedia.org/wiki/Uranus">Wikipedia</a
+            href="https://en.wikipedia.org/wiki/Saturn#Atmosphere ">Wikipedia</a
           >
           <img
             class="wikipedia-link"
@@ -34,19 +39,19 @@ import "@/styles/global.css";
       </div>
       <div class="more-information-pages-list-wrapper">
         <div class="more-information-pages-link-wrapper">
-          <a class="page-link" href="/uranus">
+          <a class="page-link" href="/saturn">
             <span class="page-number">01</span>
              OVERVIEW
           </a>
         </div>
         <div class="more-information-pages-link-wrapper">
-          <a class="page-link" href="/uranus-internal-structure/">
+          <a class="page-link" href="/saturn-internal-structure/">
             <span class="page-number">02</span>
              Internal Structure
           </a>
         </div>
         <div class="more-information-pages-link-wrapper">
-          <a class="page-link" href="/uranus-surface-geology/">
+          <a class="page-link" href="/saturn-surface-geology/">
             <span class="page-number">03</span>
              Surface Geology
           </a>
@@ -58,18 +63,18 @@ import "@/styles/global.css";
 <footer class="accurate-numbers-section">
   <div class="number-box">
     <h2 class="accurate-numbers-heading">Rotation Time</h2>
-    <p class="accurate-numbers-paragraph">17.2 Hours</p>
+    <p class="accurate-numbers-paragraph">10.8 Hours</p>
   </div>
   <div class="number-box">
     <h2 class="accurate-numbers-heading">Revolution Time</h2>
-    <p class="accurate-numbers-paragraph">84 Years</p>
+    <p class="accurate-numbers-paragraph">29.46 Years</p>
   </div>
   <div class="number-box">
     <h2 class="accurate-numbers-heading">Radius</h2>
-    <p class="accurate-numbers-paragraph">25,362 KM</p>
+    <p class="accurate-numbers-paragraph">58,232 KM</p>
   </div>
   <div class="number-box">
     <h2 class="accurate-numbers-heading">Average Temp.</h2>
-    <p class="accurate-numbers-paragraph">-195°c</p>
+    <p class="accurate-numbers-paragraph">-138°c</p>
   </div>
 </footer>
