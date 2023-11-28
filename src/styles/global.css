@@ -75,9 +75,10 @@ body {
     background-size: cover;
 }
 
+
 /* Header Style */
 
-.header-wrapper {
+/* .header-wrapper {
     padding: 0 2rem;
     margin: 1.5rem 0;
     display: flex;
@@ -85,23 +86,23 @@ body {
     align-items: center;
     padding-bottom: 1rem;
     border-bottom: 1px solid var(--clr-Martinique)
-}
+} */
 
-.logo-home-link {
+/* .logo-home-link {
     color: var(--clr-White);
     font-family: var(--ff-primary);
     font-size: 1.75rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-}
+} */
 
-.list-wrapper {
+/* .list-wrapper {
     display: flex;
     gap: 2rem;
-}
+} */
 
-.nav-links {
+/* .nav-links {
     text-transform: uppercase;
     letter-spacing: 0.0625rem;
     color: var(--clr-White);
@@ -110,24 +111,26 @@ body {
     font-style: normal;
     font-weight: 700;
     line-height: 1.5625rem;
-}
+} */
+
+/* .nav-list:active {
+    border-top: 2px solid;
+} */
 
 /* Main Style */
 .planet-information-section {
-    width: min(90%, 70rem);
+    width: min(60%, 70rem);
     margin: 0 auto;
     display: grid;
-    gap: 4rem;
-    grid-template-columns: repeat(2, 23rem);
-    justify-content: center;
-    align-items: center;
+    gap: 10rem;
+    grid-template-columns: repeat(2, 22rem);
 }
 
-.information-wrapper {
+/* .information-wrapper {
     margin-top: 7rem;
     margin-bottom: 7rem;
     color: var(--clr-White);
-}
+} */
 
 .information-intro-wrapper {
     display: flex;
@@ -263,3 +266,5 @@ body {
     letter-spacing: -0.09375rem;
     text-transform: uppercase;
 }
+
+@media (min-width:721) and (max-width:960px) {}

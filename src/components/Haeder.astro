@@ -2,20 +2,81 @@
 import "@/styles/global.css";
 ---
 
-<header class="header-wrapper">
+<header
+  class="header-wrapper flex justify-between px-8 py-0 pb-4 my-6 mx-0 border-2 border-b-clr-Martinique border-solid items-center"
+>
   <div class="logo-wrapper">
-    <a class="logo-home-link" href="/">THE PLANETS</a>
+    <a
+      class="logo-home-link text-clr-White font-primary text-3xl font-normal leading-normal not-italic"
+      href="/">THE PLANETS</a
+    >
   </div>
   <nav class="nav-wrapper">
-    <ul class="list-wrapper">
-      <li><a class="nav-links" href="/">mercury</a></li>
-      <li><a class="nav-links" href="/venus">venus</a></li>
-      <li><a class="nav-links" href="/earth">earth</a></li>
-      <li><a class="nav-links" href="/mars">mars</a></li>
-      <li><a class="nav-links" href="/jupiter">jupiter</a></li>
-      <li><a class="nav-links" href="/saturn">saturn</a></li>
-      <li><a class="nav-links" href="/uranus">uranus</a></li>
-      <li><a class="nav-links" href="/neptune">neptune</a></li>
+    <ul class="list-wrapper flex gap-10">
+      <li
+        class="nav-list active:border-clr-Pelorous active:border-t-2 border-solid"
+      >
+        <a
+          class="nav-links uppercase tracking-wider text-clr-White text-opacity-75 font-secondary text-xs font-bold leading-6"
+          href="/">mercury</a
+        >
+      </li>
+      <li
+        class="nav-list active:border-clr-Tan-Hide active:border-t-2 border-solid"
+      >
+        <a
+          class="nav-links uppercase tracking-wider text-clr-White text-opacity-75 font-secondary text-xs font-bold leading-6"
+          href="/venus">venus</a
+        >
+      </li>
+      <li
+        class="nav-list active:border-clr-Purple-Heart active:border-t-2 border-solid"
+      >
+        <a
+          class="nav-links uppercase tracking-wider text-clr-White text-opacity-75 font-secondary text-xs font-bold leading-6"
+          href="/earth">earth</a
+        >
+      </li>
+      <li
+        class="nav-list active:border-clr-Valencia active:border-t-2 border-solid"
+      >
+        <a
+          class="nav-links uppercase tracking-wider text-clr-White text-opacity-75 font-secondary text-xs font-bold leading-6"
+          href="/mars">mars</a
+        >
+      </li>
+      <li
+        class="nav-list active:border-clr-Punch active:border-t-2 border-solid"
+      >
+        <a
+          class="nav-links uppercase tracking-wider text-clr-White text-opacity-75 font-secondary text-xs font-bold leading-6"
+          href="/jupiter">jupiter</a
+        >
+      </li>
+      <li
+        class="nav-list active:border-clr-Orange-Roughy active:border-t-2 border-solid"
+      >
+        <a
+          class="nav-links uppercase tracking-wider text-clr-White text-opacity-75 font-secondary text-xs font-bold leading-6"
+          href="/saturn">saturn</a
+        >
+      </li>
+      <li
+        class="nav-list active:border-clr-Shamrock active:border-t-2 border-solid"
+      >
+        <a
+          class="nav-links uppercase tracking-wider text-clr-White text-opacity-75 font-secondary text-xs font-bold leading-6"
+          href="/uranus">uranus</a
+        >
+      </li>
+      <li
+        class="nav-list active:border-clr-Royal-Blue active:border-t-2 border-solid"
+      >
+        <a
+          class="nav-links uppercase tracking-wider text-clr-White text-opacity-75 font-secondary text-xs font-bold leading-6"
+          href="/neptune">neptune</a
+        >
+      </li>
     </ul>
   </nav>
 </header>
